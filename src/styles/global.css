@@ -71,7 +71,7 @@
 	}
 
 	.text-gradient {
-		@apply bg-gradient-to-tr from-accent to-tertary bg-clip-text text-transparent;
+		@apply bg-gradient-to-br from-secondary to-tertary bg-clip-text text-transparent;
 	}
 
 	.animate_left {

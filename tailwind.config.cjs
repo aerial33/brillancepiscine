@@ -11,8 +11,8 @@ module.exports = {
       white: '#FFFFFF',
       black: '#181C31',
       blacksection: '#1C2136',
-      primary: '#CF0B7C',
-      secondary: '#89CDE9',
+      primary: '#FBC900',
+      secondary: '#38bcf9',
       accent: "#00559b",
       tertary: "#60a5fa",
       stroke: '#3C4556',
@@ -35,7 +35,7 @@ module.exports = {
 				regular: ['16px', '26px'],
 			},
 			backgroundImage: {
-				'hero-pattern': "url('/images/hero/bg-image.png')"
+				'hero-pattern': "url('/images/hero/hero-maket.jpg')"
 			},
 			spacing: {
 				4.5: '1.125rem',

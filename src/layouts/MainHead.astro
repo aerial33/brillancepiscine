@@ -5,8 +5,8 @@ interface Props {
 	image?: string
 }
 const {
-	title = "Pose et vente de piscine coque polyester Bordeaux Gironde",
-	description = "Venez découvrir la piscine de vos de rêves: pose et installation de votre piscine coque polyester à Bordeaux et en gironde",
+	title = "Pose et vente de piscine coque polyester en  Gironde (33)",
+	description = "Venez découvrir la piscine de vos de rêves: pose et installation de votre piscine coque polyester à Montussan et en gironde",
 } = Astro.props
 ---
 
@@ -20,7 +20,7 @@ const {
 	<!-- Primary Meta Tags -->
 	<meta name="description" content={description} />
 	<meta name="title" content={title} />
-	<title>Douceur Piscine | {title}</title>
+	<title>Brillance Piscine | {title}</title>
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
@@ -35,20 +35,4 @@ const {
 	<meta property="twitter:title" content={title} />
 	<meta property="twitter:description" content={description} />
 	<!-- <meta property='twitter:image' content={new URL(image, Astro.url)} /> -->
-
-	<!-- Google Tag Manager -->
-	<script>
-		// @ts-nocheck
-		;(function (w, d, s, l, i) {
-			w[l] = w[l] || []
-			w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" })
-			var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s),
-				dl = l != "dataLayer" ? "&l=" + l : ""
-			j.async = true
-			j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl
-			f.parentNode.insertBefore(j, f)
-		})(window, document, "script", "dataLayer", "GTM-PL6P7J9")
-	</script>
-	<!-- End Google Tag Manager -->
 </head>
