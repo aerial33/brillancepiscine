@@ -35,7 +35,7 @@ module.exports = {
 				regular: ['16px', '26px'],
 			},
 			backgroundImage: {
-				'hero-pattern': "url('/images/hero/hero-maket.jpg')"
+				'hero-pattern': "url('/images/hero/maket-4.jpg')"
 			},
 			spacing: {
 				4.5: '1.125rem',
