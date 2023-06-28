@@ -13,11 +13,11 @@ type SiteParams = {
 }
 
 export const siteParams: SiteParams = {
-	name: "Brillance Piscine",
+	name: "Minéral Piscine",
 	description:
-		"Venez découvrir la piscine de vos de rêves: pose et installation de votre piscine coque polyester à Montussan et en gironde",
-	webiste: "https://brillancepiscine.com/",
-	email: "contact@brillancepiscine.com",
+		"Venez découvrir la piscine de vos de rêves: pose et installation de votre piscine coque polyester à Villenave d'Ornon et en gironde",
+	webiste: "https://mineralepiscine.com/",
+	email: "contact@mineralpiscine.com",
 	phone: "(+33) 05 64 37 59 55",
 	location: {
 		adresse: "42 Route de Fontenelle",
