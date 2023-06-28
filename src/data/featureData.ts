@@ -11,10 +11,8 @@ type Feature = {
 
 const featureData: Feature[] = [
 	{
-		title: "25 ans d'expérience",
-		description: `Douceur Piscine assure l'installation de votre piscine coque en
-    assurant un suivi de A à Z, des demandes auprès de la mairie à
-    l'installation de bassins dans vos jardins.`,
+		title: "Expérience",
+		description: `Votre professionnel Minéral Piscine dispose de plus de 25 ans d'expérience en tant que poseur de piscine à coque. Accompagnement de votre demande auprès de la mairie.`,
 		badgeColor: "bg-secondary",
 		icon: {
 			name: "mdi:seal-variant",
@@ -23,22 +21,18 @@ const featureData: Feature[] = [
 		},
 	},
 	{
-		title: "Piscine Design",
-		description: `La piscine de vos rêves est plutôt grande et rectangulaire, de
-    taille moyenne et ronde, ou petite en forme de haricot ? Nos modèles
-    de piscine sont variés, pour satisfaire toutes vos envies.`,
+		title: "Large choix",
+		description: `Plusieurs modèles de piscines avec ou sans permis de construire (petits, moyens et grands bassins).`,
 		badgeColor: "bg-tertary",
 		icon: {
-			name: "system-uicons:diamond",
+			name: "SwimmingPool",
 			alt: "Icon-luxury",
 			width: 64,
 		},
 	},
 	{
-		title: "Budget Maitrisé",
-		description: `Budget illimité ou budget serré ? Paiement comptant ou crédit ?
-    Choisissez le financement de piscine qui vous convient et profitez
-    d'un taux d'emprunt avantageux.`,
+		title: "Financement",
+		description: `Possibilité de financer votre projet piscine avec un crédit, TEG 3,90. Exemple : 92€/ mois pour un montant emprunté de 12500€ sur une durée de 180 mois.`,
 		badgeColor: "bg-meta-orange",
 		icon: {
 			name: "SolarEuroBroken",
@@ -47,8 +41,8 @@ const featureData: Feature[] = [
 		},
 	},
 	{
-		title: "Déplacements",
-		description: `Nos piscinistes de Saint-Jean-d'Illac interviennent partout dans le Bassin d'Arcachon et le Medoc, ainsi que dans les communes de la CUB de Bordeaux (33)`,
+		title: "Interventions",
+		description: `Nos piscinistes interviennent à Villenave-d'Ornon, Talence, Pessac, Libourne, st Loubes et partout en Gironde.`,
 		badgeColor: "bg-primary",
 		icon: {
 			name: "movelocation",

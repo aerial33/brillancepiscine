@@ -1,13 +1,19 @@
 ---
 import featureData from "../data/featureData"
 import { Icon } from "astro-icon"
+import { TitleSection } from "./utilities";
 
 ---
 
 <section id="features">
 	<div class="mx-auto mt-12.5 max-w-1390 px-4 md:px-7.5 lg:mt-17.5 2xl:px-12.5">
+		<TitleSection
+		title={"Choisir une piscine Minéral Piscine, c'est opter pour la fiabilité & l'expertise"}
+		titleText={"Pour un projet de piscine bien mené, choisissez des professionnels qualifiés."}
+		headerLevel="h2"
+	/>
 		<div
-			class="flex flex-wrap justify-center gap-7.5 lg:justify-between lg:gap-5 xl:flex-nowrap xl:gap-7.5">
+			class="flex flex-wrap justify-center mt-16 gap-7.5 lg:justify-between lg:gap-5 xl:flex-nowrap xl:gap-7.5">
 			<!-- Small Features Item -->
 			{
 				featureData.map(feature => (

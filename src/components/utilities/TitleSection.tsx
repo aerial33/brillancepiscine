@@ -15,7 +15,7 @@ const TitleSection = ({
 	const HeaderLevel = headerLevel
 	return (
 		<div class={TITLE_SECTION_CLASS}>
-			<HeaderLevel class="text-gradient mx-auto mb-4.5 text-3xl font-semibold md:w-4/5  lg:text-4xl xl:w-2/3 xl:text-title-xl">
+			<HeaderLevel class="text-gradient mx-auto mb-4.5 text-3xl font-semibold md:w-4/5  xl:w-2/3 xl:text-title-xl">
 				{title}
 			</HeaderLevel>
 			<p class="mx-auto text-lg font-semibold md:w-4/5 lg:w-3/5 xl:w-[46%]">
