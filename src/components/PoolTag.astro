@@ -3,13 +3,13 @@ import TitleSection from "./utilities/TitleSection.jsx"
 import { Icon } from "astro-icon"
 import { getEntryBySlug } from "astro:content"
 
-const manhattan = await getEntryBySlug("pools", "p1-manhattan")
-const lagoon = await getEntryBySlug("pools", "t6-lagoon")
-const lagoonT = await getEntryBySlug("pools", "t7-lagoontropical")
+const manhattan = await getEntryBySlug("pools", "p10-shooter")
+const lagoon = await getEntryBySlug("pools", "t3-flamingo")
+const lagoonT = await getEntryBySlug("pools", "r4-tropial")
 
-const titlePoolTag = "Explorez les avantages de chaque type de piscine "
+const titlePoolTag = "Exprimez Votre Style avec une Piscine Coque de Minéral Piscine"
 const textTitleTag =
-	"Chez Douceur Piscine, nous valorisons une approche conviviale et simplifiée de la piscine en proposant une large gamme de modèles modernes et variés. Nous mettons l'accent sur l'adaptabilité à votre style de vie. Que ce soit la forme, la couleur, les équipements ou les types d'escaliers, nous vous offrons la possibilité d'exprimer pleinement votre personnalité à travers vos choix pour une piscine qui vous ressemble."
+	"À Minéral Piscine, nous nous engageons à rendre l'expérience de la piscine coque plus accessible et agréable, en proposant une diversité de modèles contemporains et distinctifs. Notre priorité est de s'adapter à votre mode de vie. Que ce soit en termes de design, de teinte, d'accessoires ou de styles d'escaliers, nous vous donnons l'opportunité de refléter votre individualité dans vos sélections, pour une piscine coque qui est véritablement la vôtre."
 ---
 
 <!-- ===== Team Start ===== -->
@@ -52,7 +52,7 @@ const textTitleTag =
 			<!-- Pool Fond Plat -->
 			<div class="animate_top text-center">
 				<div
-					class="group relative z-1 overflow-hidden rounded-2xl bg-gradient-to-t from-black/50 to-black/10">
+					class="group aspect-h-3 aspect-w-4 z-1 overflow-hidden rounded-2xl bg-gradient-to-t from-black/50 to-black/10">
 					<img
 						class="w-full rounded-2xl mix-blend-overlay"
 						src={manhattan.data.url}
@@ -92,7 +92,7 @@ const textTitleTag =
 			<!-- Pool Fond Incliné  -->
 			<div class="animate_top text-center">
 				<div
-					class="group relative z-1 overflow-hidden rounded-2xl bg-gradient-to-t from-black/50 to-black/10">
+					class="group aspect-h-3 aspect-w-4 z-1 overflow-hidden rounded-2xl bg-gradient-to-t from-black/50 to-black/10">
 					<img
 						class="h-full w-full rounded-2xl mix-blend-overlay"
 						src={lagoon.data.url}
@@ -132,7 +132,7 @@ const textTitleTag =
 			<!-- Service Installation -->
 			<div class="animate_top text-center">
 				<div
-					class="group relative z-1 overflow-hidden rounded-2xl bg-gradient-to-t from-black/50 to-black/10 shadow">
+					class="group aspect-h-3 aspect-w-4 z-1 overflow-hidden rounded-2xl bg-gradient-to-t from-black/50 to-black/10 shadow">
 					<img
 						class="w-full rounded-2xl mix-blend-overlay"
 						src={lagoonT.data.url}
