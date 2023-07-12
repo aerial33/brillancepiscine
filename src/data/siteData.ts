@@ -18,11 +18,11 @@ export const siteParams: SiteParams = {
 		"Venez découvrir la piscine de vos de rêves: pose et installation de votre piscine coque polyester à Villenave d'Ornon et en gironde",
 	webiste: "https://mineralepiscine.com/",
 	email: "contact@mineralpiscine.com",
-	phone: "(+33) 05 64 37 59 55",
+	phone: "(+33) 05 33 09 73 50",
 	location: {
-		adresse: "42 Route de Fontenelle",
-		city: "33450 MONTUSSAN",
+		adresse: "175 Avenue des Pyrénées",
+		city: "33140 Villenave d'Ornon",
 	},
 	horaire: "Mard-Sam: 09h à 12h / 14h à 18h",
-	plan: "https://goo.gl/maps/JvcL3DHqNnMrz2qy7",
+	plan: "https://goo.gl/maps/ax8a1qirKoYpkmEz5",
 }

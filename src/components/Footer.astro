@@ -13,7 +13,7 @@ const { name, email, phone, location, horaire, plan } = siteParams
 		<!-- Footer Top -->
 		<div class="py-20 lg:py-25">
 			<div class="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
-				<div class="animate_top w-1/2 lg:w-1/4">
+				<div class="animate_top lg:w-1/4 w-1/2">
 					<a href="index.html">
 						<Icon name="logo-mobile" width="220" />
 					</a>
@@ -27,7 +27,7 @@ const { name, email, phone, location, horaire, plan } = siteParams
 					<ul class="flex items-center gap-5">
 						<li>
 							<a
-								href="https://www.facebook.com/douceurpiscinepolyester"
+								href="https://www.facebook.com/profile.php?id=100057266357158"
 								class="group flex h-10 w-10 items-center justify-center rounded-full transition-all duration-300 hover:bg-primary">
 								<Icon
 									name="ph:facebook-logo-light"
@@ -62,7 +62,7 @@ const { name, email, phone, location, horaire, plan } = siteParams
 				</div>
 
 				<div
-					class="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-[70%]">
+					class="lg:w-[70%] flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0">
 					<div class="animate_top">
 						<h4 class="mb-9 text-2xl text-secondary">Nos Piscines Coques</h4>
 
@@ -96,9 +96,7 @@ const { name, email, phone, location, horaire, plan } = siteParams
 							<p class="mb-3">
 								{location.city}
 							</p>
-							<p class="mb-2">
-								lun-Vend: 09h à 12h / 14h à 18h <br /> & sam: 9h à 12h
-							</p>
+							<p class="mb-2">Mardi-Samedi: 09h à 12h / 14h à 18h</p>
 							<Link
 								href={plan}
 								text="Plan d'accès"
