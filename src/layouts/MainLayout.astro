@@ -6,9 +6,18 @@ import { Navbar, Footer } from "../components/"
 const { title, description } = Astro.props
 ---
 
-<html lang="en">
+<html lang="fr">
 	<MainHead {title} {description} />
 	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-WVTC4VL"
+				height="0"
+				width="0"
+				style="display:none;visibility:hidden"></iframe></noscript
+		>
+		<!-- End Google Tag Manager (noscript) -->
 		<Navbar />
 		<slot />
 		<Footer />

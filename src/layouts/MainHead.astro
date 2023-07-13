@@ -6,7 +6,7 @@ interface Props {
 }
 const {
 	title = "Pose et vente de piscine coque polyester en  Gironde (33)",
-	description = "Faites appel à l'entreprise Minéral Piscine pour être conseillé sur la construction et l'installation de votre piscine coque intérieure ou extérieure."
+	description = "Faites appel à l'entreprise Minéral Piscine pour être conseillé sur la construction et l'installation de votre piscine coque intérieure ou extérieure.",
 } = Astro.props
 ---
 
@@ -35,4 +35,20 @@ const {
 	<meta property="twitter:title" content={title} />
 	<meta property="twitter:description" content={description} />
 	<!-- <meta property='twitter:image' content={new URL(image, Astro.url)} /> -->
+
+	<!-- Google Tag Manager -->
+	<script>
+		// @ts-nocheck
+		;(function (w, d, s, l, i) {
+			w[l] = w[l] || []
+			w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" })
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != "dataLayer" ? "&l=" + l : ""
+			j.async = true
+			j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl
+			f.parentNode.insertBefore(j, f)
+		})(window, document, "script", "dataLayer", "GTM-WVTC4VL")
+	</script>
+	<!-- End Google Tag Manager -->
 </head>
