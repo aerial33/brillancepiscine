@@ -6,14 +6,15 @@ import { Icon } from "astro-icon"
 import { siteParams } from "../data/siteData"
 
 const { name, email, phone, location, horaire } = siteParams
-const title = "Contacter Douceur Piscine à Bordeaux"
-const titleText =
-	"Contactez notre agence à St Jean D'Illac près de Bordeaux. Nous somme à votre disposition et assurons votre projet et le service apres vente sur le secteur de la gironde rive droite."
+const title = `Nous Contacter pour un Devis`
+const titleText = `Contactez Minéral Piscine à Villenave d'Ornon près de Bordeaux. Nous somme à votre disposition et assurons votre projet et le service apres vente dans l'Entre deux Mers.`
 
 //todo write a description metatag
 ---
 
-<MainLayout title="Votre devis piscine coque">
+<MainLayout
+	title="Devis piscine coque Gironde"
+	description="Demandez un devis gratuit pour votre piscine coque en Gironde. Nous vous proposons une large gamme de piscines coque de qualité à des prix compétitifs. Contactez-nous dès aujourd'hui pour en savoir plus.">
 	<main class="relative pt-15 lg:pt-20 xl:pt-25">
 		<!-- ===== Contact Start ===== -->
 		<HeaderPage title={title} titleText={titleText} />
@@ -89,7 +90,8 @@ const titleText =
 							<ul class="flex items-center justify-center gap-4">
 								<li>
 									<a
-										href="https://www.facebook.com/douceurpiscinepolyester"
+										href="https://www.facebook.com/profile.php?id=100057266357158"
+										target="_blank"
 										class="group flex h-10 w-10 items-center justify-center rounded-full duration-300 ease-in-out hover:bg-primary">
 										<Icon
 											name="ph:facebook-logo-light"
@@ -101,6 +103,7 @@ const titleText =
 								<li>
 									<a
 										href="https://www.instagram.com/explore/tags/douceurpiscine/"
+										target="_blank"
 										class="group flex h-10 w-10 items-center justify-center rounded-full duration-300 ease-in-out hover:bg-primary">
 										<Icon
 											name="ph:instagram-logo-light"

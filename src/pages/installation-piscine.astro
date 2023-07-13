@@ -4,16 +4,20 @@ import { Link } from "../components/utilities"
 import { HeaderPage } from "../components"
 import { Icon } from "astro-icon"
 
-const title = "Installation de Votre Piscine"
+const titleHead = "Installation de piscines par nos artisans en Gironde (33)"
+const titleDescription =
+	"Faites appel à l'équipe de Minéral Piscine pour l’installation de votre piscine dans votre jardin jusqu’à sa mise en service. Garantie 10 ans."
+const title =
+	"Installation de votre piscines en Gironde : en kit ou prêtes au bain"
 const titleText =
-	"Installation de votre piscine: “prête au bain, en Kit…”, par notre agence Douceur Piscine dans la Gironde. Choisissez la formule d’installation de piscine adaptée à vos envies."
+	"De Libourne à Langon, en passant par Gradignan, Villenave d'Ornon et les alentours en Gironde, choisissez la piscine qui vous ressemble !"
 ---
 
-<MainLayout>
+<MainLayout title={titleHead} description={titleDescription}>
 	<main class="relative overflow-hidden pt-15 lg:pt-20 xl:pt-25">
 		<HeaderPage title={title} titleText={titleText} />
-		<section class="pb-16 pt-24">
-			<div class="mx-auto max-w-7xl px-4 sm:px-6 md:mt-12.5">
+		<section class="p-16">
+			<div class="mx-auto max-w-7xl px-4 sm:px-6 md:mt-10">
 				<div
 					class="grid grid-cols-1 items-center gap-x-16 gap-y-8 lg:grid-cols-2 xl:gap-x-24">
 					<div class="relative md:mb-12">
@@ -21,7 +25,7 @@ const titleText =
 							class="aspect-h-4 aspect-w-3 md:aspect-h-9 md:aspect-w-16 lg:aspect-h-1 lg:aspect-w-1">
 							<img
 								class="h-[80%] w-full rounded-lg object-cover object-bottom md:h-full"
-								src="https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3687&q=80"
+								src="https://res.cloudinary.com/dp6synsa6/image/upload/v1685545242/testimonials/piscine-aygumorte-les-graves_gqouua.jpg"
 								alt=""
 							/>
 						</div>
@@ -33,7 +37,8 @@ const titleText =
 									<div class="flex items-center">
 										<p
 											class="text-center font-roboto text-sm font-medium text-primary sm:text-lg">
-											Piscines élégantes et durables pour un plaisir sans fin
+											Des piscines conçues pour durer et vous offrir des moments
+											inoubliables.
 										</p>
 									</div>
 								</div>
@@ -44,35 +49,35 @@ const titleText =
 					<div class="place-self-start">
 						<h2
 							class="text-gradient text-3xl font-bold leading-tight sm:text-4xl lg:leading-tight">
-							Piscine “prête à plonger”
+							3 formules d'installation pour votre piscine : à vous de choisir !
 						</h2>
+						<p class="font-semibold text-primary">
+							Une installation de piscine dans les conditions que vous
+							définissez
+						</p>
 						<p class="mt-6 leading-relaxed">
-							Installateurs de piscines monocoques depuis plus de 25 ans, nos
-							techniciens s’adaptent à toutes les difficultés (terrain en pente,
-							accès difficile). Nous assurons :
+							Vous êtes habile de vos mains et aimez bien l'idée d'installer
+							vous-même votre piscine à coque. <strong>La piscine en kit</strong
+							> (avec assistance) est faite pour les bricoleurs qui, grâce aux conseils
+							de nos piscinistes, sauront effectuer les travaux d’installation en
+							suivant le cahier des charges détaillé.
 						</p>
-						<ul>
-							<li>
-								- Préparation du sol: terrassement et nivellement du radier en
-								graviers
-							</li>
-							<li>
-								- Installation de la coque aux dimensions et caractéristiques de
-								votre choix grâce à nos camions-grues
-							</li>
-							<li>
-								- Mise en place des équipements techniques: bonde de fond,
-								skimmer, pompe et local technique
-							</li>
-							<li>- Fourniture d'accessoires pour la piscine</li>
-						</ul>
 						<p class="leading-relaxed">
-							Pour les finitions, choisissez parmi: un dallage de piscine
-							spécifique (margelles) en carrelage, un revêtement pierre, des
-							lames de bois ou en composite.
+							Bien entendu, nous restons à votre disposition tout au long du
+							chantier pour que votre installation se déroule au mieux.
 						</p>
-						<p class="text-lg">
-							Vous souhaitez créer votre piscine vous-même ?
+						<p class="mt-1 leading-relaxed">
+							<strong>La formule "semi-kit"</strong> vous permet de prendre en charge
+							selon vos préférences la préparation du terrassement, le remblaiement
+							ou encore la préparation de la filtration. Vous réduisez ainsi les
+							coûts de votre projet de piscine.
+						</p>
+						<p class="mt-1 leading-relaxed">
+							Enfin, <strong
+								>la formule tout inclus (piscine "prête à plonger")</strong
+							> avec une installation complète par nos piscinistes professionnels
+							expérimentés comprend le terrassement, la pose et l'installation de
+							la filtration.
 						</p>
 						<Link
 							href="/contact"
@@ -95,35 +100,37 @@ const titleText =
 					<div>
 						<h2
 							class="text-gradient text-3xl font-bold leading-tight sm:text-4xl lg:leading-tight">
-							Bricoleurs autonomes ? <br />Piscine en Kit
+							Après le chantier d'installation de piscine, nos recommandations
 						</h2>
-						<p class="text-primary">Une construction de piscine économique.</p>
+						<p class="font-semibold text-primary">
+							Une piscine belle et performante longtemps grâce à nos conseils
+						</p>
 						<p class="mt-4 leading-relaxed">
-							Certains modèles de piscine peuvent être installé à partir d’un
-							kit, sans l’intervention de nos piscinistes experts. Il s’agit
-							notamment des petits bassins rectangulaires à fond plat, ainsi que
-							des nouvelles piscines shooter, piscines avec moquette de détente,
-							escaliers latéraux de chaque côté et bloc filtrant.
+							Lors de la livraison puis de la pose de votre piscine à coque en
+							polyester, différents éléments annexes au bassin vous sont
+							proposés.
 						</p>
 						<p class="leading-relaxed">
-							L’installation est simple et rapide et séduira tous les amateurs
-							de bricolage et du “do it yourself” (faites-le vous-même).
+							C'est le cas de tout le système de filtration et des raccordements
+							hydrauliques et électriques. Ils viendront s'intégrer au local
+							technique que vous aurez choisi (espace indépendant ou à installer
+							dans un garage, un abri...).
 						</p>
 						<p class="leading-relaxed">
-							Comme pour la formule de piscine “prête au bain“, cette formule en
-							kit comprend l’équipement de filtration, les buses de refoulement,
-							etc…
+							En plus des équipements liés à l'entretien de la
+							piscine (filtration), certains équipements sont intégrés à la
+							coque. D'autres sont en option comme les accessoires liés à la
+							sécurité ou au nettoyage (volet roulant immergé, etc.).
 						</p>
 						<p class="leading-relaxed">
-							Il existe aussi la formule d’installation semi-kit qui comprend la
-							livraison jusqu’à la mise en service.
+							Vous ne savez pas quelles finitions et solutions de dallage de
+							piscine choisir ?
 						</p>
 						<p>
-							D’autres options sont disponibles à la carte.
 							<Link
 								href="/contact"
-								text="renseignez-vous"
-								classes="mt-2 pl-2 group text-lg"
+								text="Demandez conseil à nos piscinistes."
+								classes="mt-2 group text-lg"
 								icon={{
 									name: "ph:caret-right-light",
 									side: "right",
@@ -138,14 +145,14 @@ const titleText =
 							<div class="aspect-h-9 aspect-w-16">
 								<img
 									class="rounded-lg object-cover object-center"
-									src="/images/piscine-installation-01.jpeg"
+									src="https://res.cloudinary.com/dp6synsa6/image/upload/v1689183240/testimonials/chantier-piscine-mineral_yjfzoi.jpg"
 									alt=""
 								/>
 							</div>
 
 							<img
 								class="absolute -bottom-[150px] origin-bottom-right scale-75 rounded-lg object-cover object-right md:-right-[150px] lg:-bottom-[200px] lg:-right-14"
-								src="/images/piscine-installation-02.jpeg"
+								src="https://res.cloudinary.com/dp6synsa6/image/upload/v1689183253/testimonials/chantier-mineral-piscine_kfnjkf.jpg"
 								alt=""
 							/>
 						</div>
@@ -164,7 +171,7 @@ const titleText =
 							class="aspect-h-9 aspect-w-16 overflow-hidden rounded-lg lg:aspect-h-4 lg:aspect-w-3">
 							<img
 								class="object-cover"
-								src="/images/piscine-chantier-finish.jpeg"
+								src="https://res.cloudinary.com/dp6synsa6/image/upload/v1689182540/testimonials/chantier-finish-mineral_rsf97e.jpg"
 								alt=""
 							/>
 						</div>
@@ -173,8 +180,8 @@ const titleText =
 							<div
 								class="aspect-h-9 aspect-w-16 h-full overflow-hidden rounded-lg lg:aspect-h-4 lg:aspect-w-3">
 								<img
-									class="w-full object-cover object-left-bottom"
-									src="/images/chantier-piscine.jpeg"
+									class="w-full object-cover object-center"
+									src="https://res.cloudinary.com/dp6synsa6/image/upload/v1689184276/testimonials/chantier-mineral-piscine-3_uws1az.jpg"
 									alt=""
 								/>
 							</div>
@@ -222,46 +229,34 @@ const titleText =
 					<div class="flex flex-col items-start">
 						<h2
 							class="text-gradient text-3xl font-bold leading-tight sm:text-4xl lg:leading-tight">
-							Processus d'installation de piscine : <br /> étapes clés avec Douceur
-							Piscine
+							Apprenez-en plus sur le déroulé du chantier de votre piscine
 						</h2>
-						<p class="text-primary">
-							Nos équipes prennent en charge l’installation complète de votre
-							piscine
+						<p class="mb-1 font-semibold text-primary">
+							Plusieurs étapes sont primordiales au bon déroulement du chantier
 						</p>
-						<p class="mt-4 leading-relaxed">
-							Notre entreprise Douceur Piscine se charge de l'installation
-							complète de votre piscine dans la région de Bordeaux et du bassin
-							d'Arcachon (33). Le déroulement du chantier se divise en plusieurs
-							étapes :
+						<p class="leading-relaxed">
+							La pose d'une piscine est un projet en plusieurs étapes
+							nécessaires pour une installation réussie.
 						</p>
-						<ul>
-							<li>- Préparation du terrain pour une installation optimale</li>
-							<li>
-								- Travaux de plomberie et d'électricité pour une utilisation
-								sécurisée
-							</li>
-							<li>
-								- Construction de la piscine, que ce soit une piscine coque ou
-								piscine creusée en béton
-							</li>
-							<li>
-								- Installation du revêtement extérieur pour une finition
-								esthétique
-							</li>
-							<li>- Remplissage en eau pour une mise en service rapide</li>
-							<li>
-								- Installation des équipements annexes tels que les pompes,
-								filtres et chauffages pour un confort optimal
-							</li>
-						</ul>
-						<p class="mt-4 leading-relaxed">
-							Chez Douceur Piscine, nous mettons tout en œuvre pour que votre
-							projet de piscine soit une réussite, de l'installation à
-							l'entretien.
+						<p class="mt-1 leading-relaxed">
+							Tout commence par la préparation du terrain, le sol doit être bien
+							nivelé pour accueillir une piscine.
+						</p>
+						<p class="mt-1 leading-relaxed">
+							Ensuite, il est important d'effectuer les travaux de plomberie et
+							d'électricité pour bénéficier d'un système de pompage performant
+							ainsi que l'éclairage et le chauffage.
+						</p>
+						<p class="mt-1 leading-relaxed">
+							Une fois ces travaux de préparation effectués, il faudra
+							construire la structure de la piscine puis tous les équipements de
+							filtrage à la fin.
+						</p>
+						<p class="mt-1 leading-relaxed">
+							Faites appel à notre entreprise pour plus d'informations sur le
+							déroulé du chantier.
 						</p>
 						<p>
-							Besoin d'informations sur nos installations de piscines ?
 							<Link
 								href="contact"
 								text="Contactez-nous"
@@ -287,7 +282,7 @@ const titleText =
 						<div class="aspect-h-2 aspect-w-3 md:aspect-h-9 md:aspect-w-16">
 							<img
 								class="w-full rounded-lg object-cover object-top"
-								src="/images/grutage-piscine.jpeg"
+								src="https://res.cloudinary.com/dp6synsa6/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1689183266/testimonials/grutage_dikwtx.jpg"
 								alt=""
 							/>
 						</div>
@@ -311,22 +306,29 @@ const titleText =
 					<div class="place-self-start">
 						<h2
 							class="text-gradient text-3xl font-bold leading-tight sm:text-4xl lg:leading-tight">
-							Un accès compliqué ? <br />
-							Nous nous occupons du grutage de votre piscine
+							Accès aux travaux difficiles à l'aide d'un grutage précis
 						</h2>
-						<p class="mt-6 leading-relaxed">
-							L’installation de votre piscine peut parfois être retardée par une
-							localisation difficile d’accès. Nous procéderons à un grutage afin
-							d’accéder aux travaux quel que soit l’espace où ils sont situés.
+						<p class="mb-4 font-semibold text-primary">
+							Une piscine même dans un espace difficile d'accès
 						</p>
-						<p>
-							Le grutage est une pratique qui utilise une grue pour soulever des
-							machines ou des matériaux lourds et les déplacer à un endroit
-							spécifique, souvent difficile d’accès.
+						<p class="mb-1 leading-relaxed">
+							Vous êtes situés dans une résidence ou dans un lotissement
+							difficile d'accès pour des travaux ?
 						</p>
-						<p>
-							Le grutage est souvent la seule option pour installer une piscine
-							dans un espace restreint ou isolé.
+						<p class="mb-1 leading-relaxed">
+							Nous faisons intervenir un professionnel pour déplacer les
+							machines et matériaux lourds en toute sécurité.
+						</p>
+						<p class="mb-1 leading-relaxed">
+							Le grutage consiste à utiliser une grue pour manipuler des
+							éléments lourds dans des espaces restreints.
+						</p>
+						<p class="mb-1 leading-relaxed">
+							Ainsi votre piscine sera installée quelle que soit votre
+							localisation.
+						</p>
+						<p class="leading-relaxed">
+							Contactez Minéral Piscine pour vos travaux de piscine en Gironde !
 						</p>
 						<Link
 							href="/contact"
